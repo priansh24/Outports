@@ -1,0 +1,432 @@
+body {
+    margin: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 75%;
+    font-size: xx-large;
+    /* padding-bottom: 3%; */
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 50%;
+    padding-top: 3%;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+p {
+    padding: 2% 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.red {
+    color: rgb(229, 43, 43);
+    ;
+}
+
+
+/* START OF NAVBAR SECTION  */
+
+.navbar {
+    /* margin: 20px; */
+    background: transparent\;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 23px !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+    padding: 0 10px;
+    color: white;
+}
+
+
+/* END OF NAVBAR SECTION  */
+
+
+/* START OF TOP CONTAINER  */
+
+.top-section {
+    position: relative;
+    color: black;
+}
+
+.top-button {
+    position: absolute;
+    right: 1%;
+}
+
+.top-heading {
+    position: absolute;
+    color: white;
+    top: 26rem;
+    left: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    width: 59%;
+    /* font-weight: lighter; */
+}
+
+.title-heading {
+    width: 61%;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 5px;
+}
+
+#title {
+    background-image: url("../images/ship.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 52rem;
+    padding: 20px 40px;
+}
+
+
+/* END OF TOP SECTION  */
+
+
+/* START OF FEATURES SECTION */
+
+.white-section {
+    width: 100%;
+    height: 65rem;
+    background-color: white;
+    padding-left: 6%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 .second-heading {
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.right-section {
+    width: 50%;
+    padding-top: 8%;
+    /* align-items: flex-end; */
+}
+
+.left-section {
+    width: 50%;
+    /* justify-content: flex-start; */
+}
+
+.features {
+    display: flexbox;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.features-heading {
+    padding-bottom: 50px;
+    width: 85%;
+}
+
+.feature1 {
+    padding-bottom: 10%;
+}
+
+.feature2 {
+    padding-bottom: 10%;
+}
+
+.feature3 {
+    padding-bottom: 10%;
+}
+
+.feature4 {
+    padding-bottom: 10%;
+}
+
+.features-section .content {
+    color: rgb(105, 102, 102);
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+}
+
+.left-content {
+    color: rgb(105, 102, 102);
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 0 9%;
+    width: 76%;
+}
+
+.small-heading {
+    color: rgb(229, 43, 43);
+    padding: 18% 0 2.5%;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+i {
+    /* color: red; */
+    width: 400px;
+}
+
+.features-icon {
+    vertical-align: middle;
+    color: rgb(229, 43, 43);
+}
+
+
+/* END OF FEATURES SECTION  */
+
+
+/* START OF HOW IS WORKS SECTIONS  */
+
+.blue-section {
+    padding-top: 80px;
+}
+
+#how-it-works {
+    /* background-color: navy; */
+    background-image: url("../images/cargo-overlay.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    width: 100%;
+    height: 49rem;
+    /* font-weight: bold; */
+    color: white;
+    margin: 0;
+    position: relative;
+}
+
+
+/* #white-box {
+    background-color: white;
+    padding: 15% 5%;
+    border: red solid;
+    position: absolute;
+} */
+
+.works {
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 19.55%;
+}
+
+.works-para {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+img {
+    vertical-align: top;
+}
+
+.colored {
+    padding: 0;
+}
+
+
+/* END OF HOW IT WORKS SECTION  */
+
+
+/* START OF SERVICES SECTION  */
+
+.service-section {
+    padding-top: 15%;
+}
+
+.right-content {
+    color: rgb(105, 102, 102);
+    font-family: 'Montserrat', sans-serif;
+    padding: 3% 0 9%;
+    font-size: 1.5vmin;
+    width: 60%;
+}
+
+#services {
+    height: 67rem;
+    /* background-color: pink; */
+}
+
+.list-of-services {
+    width: 33%;
+}
+
+.icons {
+    padding-bottom: 20px;
+    /* background-color: rgb(3, 3, 78); */
+    color: rgb(9, 28, 87);
+    padding-bottom: 15px;
+}
+
+h2.second-heading {
+    width: 40%;
+    padding-bottom: 10%;
+}
+
+.service-second-heading {
+    padding-top: 0;
+}
+
+
+/* END OF SERVICES SECTION  */
+
+
+/* START OF TESTIMONIALS SECTION  */
+
+.client-feedback {
+    background-color: rgb(219, 217, 217);
+    width: 100%;
+    height: 56rem;
+    text-align: center;
+    /* border: black solid 100px; */
+    /* overflow: hidden; */
+}
+
+.testimonial-section {
+    padding-top: 7%;
+    /* background-color: pink; */
+}
+
+h2.testimonial-heading {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0%;
+    /* text-align: center; */
+}
+
+p.testimonial-heading {
+    width: 100%;
+    /* text-align: center; */
+    padding: 3% 0 7%;
+}
+
+.testimonial-text {
+    padding-left: 28%;
+    width: 70%;
+    text-align: left;
+    font-size: 1.4rem;
+    /* background-color: green; */
+}
+
+.testimonial-name {
+    text-align: left;
+    padding-left: 28%;
+    /* font-size: 1.1rem; */
+    font-weight: bold;
+    margin: 0;
+}
+
+p.testimonial-country {
+    text-align: left;
+    padding-top: 0;
+    padding-left: 28%;
+    margin: 0%;
+}
+
+.testimonial-photo {
+    /* background-image: url("../images/testimonial-photo1.jpg"); */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    width: 50%;
+    height: auto;
+    margin: 0%;
+    text-align: center;
+}
+
+.second-testimonial {
+    text-align: right;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(229, 43, 43);
+    height: 40rem;
+    width: 50px;
+    outline: rgb(229, 43, 43);
+    ;
+    background-size: 100%, 100%;
+    border-radius: 0%;
+    border: 3px solid rgb(229, 43, 43);
+    ;
+    z-index: 1;
+}
+
+
+/* END OF TESTIMONIAL SECTION  */
+
+
+/* START OF NEWS SECTION  */
+
+#news {
+    background-color: white;
+    width: 100%;
+    height: 65rem;
+}
+
+.news-heading {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    padding-top: 10%;
+}
+
+
+/* END OF NEWS SECTION  */
+
+
+/* START OF FOOTER SECTION  */
+
+.footer {
+    background-color: #202E55;
+    height: 50rem;
+    color: white;
+    /* text-align: center; */
+    margin: 0;
+}
+
+.footer-color {
+    padding: 25% 15% 0;
+}
+
+.title-name {
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+.footer p {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    text-align: left;
+    /* line-height: 1rem; */
+}
+
+.footer-red {
+    font-weight: bold;
+}
+
+.details {
+    padding: 0 0 4%;
+    margin: 0;
+}
+
+.footer-icons {
+    color: rgb(229, 43, 43);
+    vertical-align: middle;
+}
