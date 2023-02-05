@@ -19,6 +19,10 @@ h2 {
     padding-top: 3%;
 }
 
+h3 {
+    display: inline-block;
+}
+
 h4 {
     padding-top: 10px;
 }
@@ -27,6 +31,13 @@ p {
     padding: 2% 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+}
+
+hr {
+    display: block;
+    padding: 10px;
+    width: 80%;
+    align-items: center;
 }
 
 .red {
@@ -122,6 +133,7 @@ h1 .second-heading {
 .right-section {
     width: 50%;
     padding-top: 8%;
+    /* margin-left: 1px; */
     /* align-items: flex-end; */
 }
 
@@ -142,19 +154,42 @@ h1 .second-heading {
 }
 
 .feature1 {
+    display: inline-block;
     padding-bottom: 10%;
+    display: flex;
 }
 
 .feature2 {
+    display: inline-block;
     padding-bottom: 10%;
+    display: flex;
 }
 
 .feature3 {
+    display: inline-block;
     padding-bottom: 10%;
+    display: flex;
 }
 
 .feature4 {
+    display: inline-block;
     padding-bottom: 10%;
+    display: flex;
+}
+
+.features-icon {
+    /* border: 5px solid black; */
+    width: 70px;
+    vertical-align: middle;
+    color: rgb(229, 43, 43);
+    padding-top: 1%;
+    /* border: 5px solid black; */
+}
+
+.features-content {
+    display: inline-block;
+    padding-left: 10%;
+    /* border: 5px solid black; */
 }
 
 .features-section .content {
@@ -180,11 +215,6 @@ h1 .second-heading {
 i {
     /* color: red; */
     width: 400px;
-}
-
-.features-icon {
-    vertical-align: middle;
-    color: rgb(229, 43, 43);
 }
 
 
@@ -254,9 +284,10 @@ img {
 .right-content {
     color: rgb(105, 102, 102);
     font-family: 'Montserrat', sans-serif;
-    padding: 3% 0 9%;
+    padding: 3% 0 9% 20%;
     font-size: 1.5vmin;
-    width: 60%;
+    width: 80%;
+    /* border: 5px solid black; */
 }
 
 #services {
@@ -290,17 +321,24 @@ h2.second-heading {
 
 /* START OF TESTIMONIALS SECTION  */
 
-.client-feedback {
-    background-color: rgb(219, 217, 217);
+#testimonial-one {
+    background-color: rgb(236, 236, 236);
     width: 100%;
-    height: 56rem;
+    height: 22rem;
+    text-align: center;
+}
+
+.client-feedback {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 32rem;
     text-align: center;
     /* border: black solid 100px; */
     /* overflow: hidden; */
 }
 
 .testimonial-section {
-    padding-top: 7%;
+    padding-top: 6%;
     /* background-color: pink; */
 }
 
@@ -320,10 +358,20 @@ p.testimonial-heading {
 
 .testimonial-text {
     padding-left: 28%;
-    width: 70%;
+    width: 60%;
     text-align: left;
     font-size: 1.4rem;
     /* background-color: green; */
+}
+
+.testimonial-text-right {
+    padding-left: 28%;
+    width: 70%;
+    text-align: right;
+    font-size: 1.4rem;
+    margin-left: 2%;
+    /* background-color: green; */
+    /* border: 5px solid yellow; */
 }
 
 .testimonial-name {
@@ -334,6 +382,14 @@ p.testimonial-heading {
     margin: 0;
 }
 
+.testimonial-name-right {
+    text-align: right;
+    padding-right: 28%;
+    /* font-size: 1.1rem; */
+    font-weight: bold;
+    /* border: 5px solid black; */
+}
+
 p.testimonial-country {
     text-align: left;
     padding-top: 0;
@@ -341,31 +397,46 @@ p.testimonial-country {
     margin: 0%;
 }
 
+p.testimonial-country-right {
+    text-align: right;
+    padding-top: 0;
+    padding-right: 28%;
+    margin: 0%;
+    /* border: 5px solid black; */
+}
+
 .testimonial-photo {
-    /* background-image: url("../images/testimonial-photo1.jpg"); */
+    background-image: url("../images/testimonial-photo1.jpg");
     background-repeat: no-repeat;
     /* background-position: center; */
     /* background-size: cover; */
-    width: 50%;
-    height: auto;
-    margin: 0%;
-    text-align: center;
+}
+
+.testimonial-photo-right {
+    background-image: url("../images/testimonial-photo1.jpg");
+    background-repeat: no-repeat;
+    /* border: 5px solid black; */
+}
+
+.first-testimonial {
+    padding-right: 20%;
 }
 
 .second-testimonial {
-    text-align: right;
+    padding-left: 20%;
+    /* border: 5px solid green; */
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    background-color: rgb(229, 43, 43);
-    height: 40rem;
+    background-color: black;
+    height: 6rem;
     width: 50px;
-    outline: rgb(229, 43, 43);
+    outline: black;
     ;
     background-size: 100%, 100%;
     border-radius: 0%;
-    border: 3px solid rgb(229, 43, 43);
+    border: 3px solid black;
     ;
     z-index: 1;
 }
@@ -395,7 +466,7 @@ p.testimonial-country {
 /* START OF FOOTER SECTION  */
 
 .footer {
-    background-color: #202E55;
+    background-color: #11192e;
     height: 50rem;
     color: white;
     /* text-align: center; */
@@ -429,4 +500,47 @@ p.testimonial-country {
 .footer-icons {
     color: rgb(229, 43, 43);
     vertical-align: middle;
+    width: 25px;
+    /* border: 5px solid black; */
+}
+
+.location {
+    display: inline-block;
+    padding-bottom: 10px;
+    /* border: 4px solid black; */
+}
+
+.number {
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    padding-bottom: 6%;
+    border-bottom: 1px solid rgb(105, 102, 102);
+    ;
+}
+
+.left-logos {
+    padding: 2% 15% 0 0;
+    margin-left: 14.5%;
+}
+
+.right-logos {
+    text-align: right;
+    color: white;
+    display: inline-block;
+    /* border: 5px solid red; */
+    width: 32px;
+}
+
+.left-side {
+    color: rgb(105, 102, 102);
+    font-family: 'Montserrat', sans-serif;
+    /* border: 5px solid green; */
+}
+
+.right-side {
+    /* border: 5px solid yellow; */
+    padding-top: 2.5%;
+    margin-left: 23.2%;
 }
