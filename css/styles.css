@@ -142,6 +142,7 @@ hr {
 
 .card-body {
     padding: 10%;
+    /* border: 3px solid blue; */
 }
 
 .card-text {
@@ -167,11 +168,11 @@ hr {
 }
 
 .card-icon-2 {
-    width: 60%;
+    width: 74%;
     padding: 10%;
     background-color: #dc3545;
     color: white;
-    /* border: 5px solid yellow; */
+    /* border: 1px solid black; */
 }
 
 .card-icon-1 {
@@ -181,6 +182,12 @@ hr {
     color: white;
     /* border: 5px solid yellow; */
 }
+
+
+/* .card-text {
+    border: 3px solid black;
+    margin: 0;
+} */
 
 
 /* END OF TOP SECTION  */
