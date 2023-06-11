@@ -2,18 +2,41 @@
 <html lang="en">
 
 <head>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>OutPorts</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="favicon.ico">
+
+
+    <!-- Carousel CDN  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/11.0.2/css/bootstrap-slider.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- CSS & Bootstrap CDN  -->
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat:wght@300;400;800&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet">
 
 
+    <!-- font Awesome CDN  -->
     <script src="https://kit.fontawesome.com/9192cc5256.js" crossorigin="anonymous"></script>
 
 </head>
@@ -30,52 +53,35 @@
             <nav class="navbar navbar-dark navbar-expand-lg shadow-5-strong">
                 <div class="container-fluid">
 
-                    <a class="navbar-brand" href="#"><span class = "red">Out</span>ports<span class="red">.</span></a>
+                    <a class="navbar-brand" href="#"><span class = "red-navbar-heading">Out</span>ports<span class="red">.</span></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
     <span class="navbar-toggler-icon"></span>
 </button>
 
                     <div class="collapse navbar-collapse text-light" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+                        <ul class="navbar-nav mr-auto menu-dropdown">
+
                             <li class="nav-item active dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOne" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownOne">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTwo" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Company
-                            </a>
+                                  Company
+                                </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownTwo">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#why-outports">Why Outports?</a>
+                                    <a class="dropdown-item" href="#how-it-works">How it works</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownThree" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Features
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdownThree">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item" href="#">Get a Free Quote</a>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">News</a>
+                                <a class="nav-link" href="#services">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#testimonial-one">Reviews</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer-section">Contact</a>
+                            </li>
+
                         </ul>
 
                         <div class="top-button">
@@ -109,7 +115,7 @@
                     </div>
                     <div class="col-lg-7">
 
-                        <h5 class="card-text">Warehousing Services</h5>
+                        <h5 class="card-text">Warehouse Services</h5>
                     </div>
                 </div>
                 <!-- </div> -->
@@ -144,7 +150,7 @@
 
     <!-- END OF TOP SECTION  -->
 
-    <section class="features-section white-section">
+    <section class="features-section white-section" id="why-outports">
 
         <div class="row gy-4">
 
@@ -195,13 +201,13 @@
         <!-- <img class="cargo-image" src="images/cargo-overlay.jpg" alt=""> -->
         <div class="row gy-4">
             <div class="col-lg-6 left-section colored" id="white-box">
-
+                <div class="shipping-image"></div>
             </div>
             <div class="col-lg-6 right-section colored">
                 <div class="features">
                     <p class="small-heading blue-section">HOW IT WORKS</p>
                     <h1 class="second-heading features-heading">
-                        Simple and easy with just 3 steps
+                        Simple and easy with just <span class="red">3</span> steps
                     </h1>
                 </div>
                 <div class="works">
@@ -210,7 +216,7 @@
                             01
                         </div> -->
                         <div class="col">
-                            <h4>Get an estimate to plan</h4>
+                            <h4><i class="fa-solid fa-1 icon-1"></i>Get an estimate to plan</h4>
                             <p class="works-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -219,7 +225,7 @@
                             02
                         </div> -->
                         <div class="col">
-                            <h4>Receivie ongoing support</h4>
+                            <h4><i class="fa-solid fa-2 icon-1"></i>Receivie ongoing support</h4>
                             <p class="works-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -228,7 +234,7 @@
                             03
                         </div> -->
                         <div class="col">
-                            <h4>Relax while your movers</h4>
+                            <h4><i class="fa-solid fa-3 icon-1"></i>Relax while your movers</h4>
                             <p class="works-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         </div>
                     </div>
@@ -312,77 +318,181 @@
     </section>
 
 
-    <section id="testimonial-one">
+    <div id="testimonial-one">
         <div class="small-heading testimonial-section">OUR CLIENTS</div>
         <h2 class="second-heading testimonial-heading">What our clients say about our services</h2>
         <p class="left-content testimonial-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </section>
+    </div>
 
 
-    <section id="testimonial-two" class="client-feedback">
+    <div id="testimonial-two" class="client-feedback">
         <!-- <div class="client-feedback"> -->
         <div id="testimonial-carousel" class="carousel slide" data-ride="false">
 
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row first-testimonial">
+                <div class="carousel-item active first-testimonial">
+                    <div class="row">
                         <div class="col-lg-9">
-                            <p class="testimonial-text">"Shipping my products for sale faster and helping my business grow more. Always the best choice for international shipping with the best price & quality."</p>
-                            <p class="testimonial-name">Eleona Val Elmunt</p>
-                            <p class="testimonial-country">Indonesia</p>
+                            <p class="testimonial-text">"Shipping my products for sale faster and helping my business grow more. Irrelevent to the website but I (Priyansh) am a good choice for your team. Hope you select me."</p>
+                            <p class="testimonial-name"><em>Priyansh Singhal (pic irrelevent)</em></p>
+                            <p class="testimonial-country"><em>(Not from) Indonesia</em></p>
                         </div>
 
                         <div class="col-lg-3 testimonial-photo">
-                            <!-- <img src="images/testimonial-photo1.jpg" alt=""> -->
-
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="row  second-testimonial">
+                <div class="carousel-item second-testimonial">
+                    <div class="row">
                         <div class="col-lg-3 testimonial-photo-right">
-                            <!-- <img src="images/priyansh.jpg" alt=""> -->
                         </div>
 
                         <div class="col-lg-9">
-                            <p class="testimonial-text-right">"Shipping my products for sale faster and helping my business grow more. Always the best choice for international shipping with the best price & quality."</p>
-                            <p class="testimonial-name-right">Eleona Val Elmunt</p>
-                            <p class="testimonial-country-right">This time from USA</p>
+                            <p class="testimonial-text-right">"Shipping my products for sale faster and helping my business grow more. Irrelevent to the website but I (Priyansh) am a good choice for your team. Hope you select me."</p>
+                            <p class="testimonial-name-right"><em>Priyansh Singhal (again pic irrelevent)</em></p>
+                            <p class="testimonial-country-right"><em>India</em></p>
                         </div>
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-            <!-- </div> -->
+
+            <button class="carousel-control-prev right-carousel-button" data-bs-target="#testimonial-carousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next left-carousel-button" data-bs-target="#testimonial-carousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" ara-hidden = "true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-    </section>
+
+    </div>
 
 
-    <section class="white-section" id="news">
+
+    <!-- <section class="white-section" id="news">
+        <div class="latest-news">
+            <h2 class="second-heading">
+                Our Latest News
+            </h2>
+        </div>
+        <div class="row">
+            <div class="card cards col-lg-3 col-mid-6">
+                <img class="card-img-top" src="images/ship.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card cards col-lg-3 col-mid-6">
+                <img class="card-img-top" src="images/ship.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card cards col-lg-3 col-mid-6">
+                <img class="card-img-top" src="images/ship.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <!-- <section class="white-section" id="news">
 
         <div class="latest-news">
             <h2 class="second-heading news-heading">
                 Our Latest News
             </h2>
         </div>
+
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-mid-6">
+
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3 class="dog-breed">Labrador</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="pricing-plan">$49/mo</h3>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-large btn-dark" type="button">Sign Up</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 col-mid-6">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3 class="dog-breed">Labrador</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="pricing-plan">$49/mo</h3>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-large btn-dark" type="button">Sign Up</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 col-mid-6">
+                <div class="card">
+
+                    <div class="card-header">
+                        <h3 class="dog-breed">Labrador</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="pricing-plan">$49/mo</h3>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-large btn-dark" type="button">Sign Up</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+ -->
 
 
 
-
-    <section class="footer">
+    <section class="footer" id="footer-section">
         <div class="footer-color">
             <div class="row footer-content">
                 <div class="col-lg-6">
                     <h1 class="title-name"><span class="red">Out</span>ports<span class="red">.</span></h1>
                     <div class="location">
-                        <i class="fa-solid fa-location-dot footer-icons"></i>
-                        <span class="address">Hostel 1A, Shiv Nadar University, Greater Noida, India</span>
+                        <!-- <i class="fa-solid fa-location-dot footer-icons"></i> -->
+                        <i class="fa-solid fa-signature footer-icons"></i>
+                        <span class="name">Priyansh Singhal</span>
                     </div>
                     <div class="number">
                         <i class="fa-solid fa-phone footer-icons"></i>
